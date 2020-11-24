@@ -8,4 +8,8 @@ public class Tile {
         this.number = number;
         this.active = active;
     }
+
+    public Boolean IsActive() {
+        return active;
+    }
 }
